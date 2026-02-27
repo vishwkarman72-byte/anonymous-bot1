@@ -74,5 +74,5 @@ def relay(message):
 
 if __name__ == "__main__":
     bot.remove_webhook()
-    bot.set_webhook(url=f"https://https://anonymous-bot1.onrender.com/{TOKEN}")
+    bot.set_webhook(url=f"https://https://anonymous-bot1-1.onrender.com/{TOKEN}")
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
